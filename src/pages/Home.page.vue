@@ -25,7 +25,7 @@ function onUpdateFavoriteTools() {
   <div class="pt-50px">
     <div class="grid-wrapper">
       <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-        <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="IconHeart">
+        <!-- <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="IconHeart">
           {{ $t('home.follow.p1') }}
           <a
             href="https://github.com/CorentinTh/it-tools"
@@ -42,7 +42,7 @@ function onUpdateFavoriteTools() {
           >X</a>.
           {{ $t('home.follow.thankYou') }}
           <n-icon :component="IconHeart" />
-        </ColoredCard>
+        </ColoredCard> -->
 
         <a href="https://bit.ly/3zBl7DG" target="_blank" rel="noopener" class="text-current decoration-none">
           <c-card v-if="config.showSponsorBanner" class="cursor-pointer !border-2px !hover:border-primary">
